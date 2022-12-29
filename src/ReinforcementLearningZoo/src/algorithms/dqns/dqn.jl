@@ -1,6 +1,7 @@
 export DQNLearner
 
 using Random: AbstractRNG, GLOBAL_RNG
+using Flux: gradient, params
 using Functors: @functor
 
 Base.@kwdef mutable struct DQNLearner{A<:Approximator{<:TwinNetwork}} <: AbstractLearner
