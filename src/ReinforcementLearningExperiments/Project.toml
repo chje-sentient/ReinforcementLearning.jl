@@ -1,7 +1,7 @@
 name = "ReinforcementLearningExperiments"
 uuid = "6bd458e5-1694-412f-b601-3a888375c491"
 authors = ["Jun Tian <tianjun.cpp@gmail.com>"]
-version = "0.1.4"
+version = "0.1.5"
 
 [deps]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
@@ -17,11 +17,7 @@ StableRNGs = "860ef19b-820b-49d6-a774-d7a799459cd3"
 Weave = "44d3d7a6-8a23-5bf8-98c5-b353f8df5ec9"
 
 [compat]
-Distributions = "0.25"
-Flux = "0.13"
-StableRNGs = "1"
-Weave = "0.10"
-julia = "1.6"
+julia = "1.8"
 
 [extras]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
